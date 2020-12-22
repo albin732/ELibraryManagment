@@ -1719,6 +1719,7 @@
     <Content Include="Fontawesome\webfonts\fa-brands-400.svg" />
     <Content Include="Fontawesome\webfonts\fa-regular-400.svg" />
     <Content Include="Fontawesome\webfonts\fa-solid-900.svg" />
+    <Content Include="Notes.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

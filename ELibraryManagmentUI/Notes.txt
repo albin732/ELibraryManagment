@@ -1,0 +1,4 @@
+﻿Web Empty page created
+Bootstrap,
+Fontawesome,
+DataTables styling elements added
