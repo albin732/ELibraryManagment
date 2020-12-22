@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ELibraryManagmentUI.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="DataTables/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <link href="Fontawesome/css/all.css" rel="stylesheet" />
+
+    <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="DataTables/js/jquery.dataTables.min.js"></script>
+    <script src="Fontawesome/js/all.js"></script>
+    
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
