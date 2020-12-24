@@ -9,38 +9,30 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <center>
+                <div class="col-md-12 text-center">
                         <h2>Our Features</h2>
                         <p><b>Our 3 primary Features -</b></p>
-                    </center>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
-                    <center>
-                    <img width="150px" src="Images/digital-inventory.png" />
+                <div class="col-md-4 text-center">
+                    <img width="150" src="Images/digital-inventory.png" />
                         <h4>Digital book Inventory</h4>
                         <p class="text-justify">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
-                    </center>
                 </div>
 
 
-                <div class="col-md-4">
-                    <center>
-                        <img width="150px" src="Images/search-online.png" />
+                <div class="col-md-4 text-center">
+                        <img width="150" src="Images/search-online.png" />
                         <h4>Search Books</h4>
                         <p class="text-justify">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
-                    </center>
                 </div>
 
 
-                <div class="col-md-4">
-                    <center>
-                        <img width="150px" src="Images/defaulters-list.png" />
+                <div class="col-md-4 text-center">
+                        <img width="150" src="Images/defaulters-list.png" />
                         <h4>Defaulter</h4>
                         <p class="text-justify">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
-                    </center>
                 </div>
 
 
@@ -55,38 +47,30 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <center>
+                <div class="col-md-12 text-center" >
                         <h2>Our Process</h2>
                         <p><b>We have simple 3 step process</b></p>
-                    </center>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
-                    <center>
-                        <img width="150px" src="Images/sign-up.png" />
+                <div class="col-md-4 text-center">
+                        <img width="150" src="Images/sign-up.png" />
                         <h4>Sign Up</h4>
                         <p class="text-justify">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
-                    </center>
                 </div>
 
 
-                <div class="col-md-4">
-                    <center>
-                        <img width="150px" src="Images/search-online.png" />
+                <div class="col-md-4 text-center">
+                        <img width="150" src="Images/search-online.png" />
                         <h4>Search Books</h4>
                         <p class="text-justify">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
-                    </center>
                 </div>
 
 
-                <div class="col-md-4">
-                    <center>
-<img width="150px" src="Images/library.png" />
+                <div class="col-md-4 text-center">
+                        <img width="150" src="Images/library.png" />
                         <h4>Visit Us</h4>
                         <p class="text-justify">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
-                    </center>
                 </div>
 
 
