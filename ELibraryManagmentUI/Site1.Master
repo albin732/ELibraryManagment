@@ -16,9 +16,12 @@
     <%--custom css--%>
     <link href="css/CustomStyleSheet.css" rel="stylesheet" />
 
-    
+
+
+    <script src="Bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="Bootstrap/js/popper.min.js"></script>
     <%--Bootstrap js--%>
-    <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
     <%--DataTables js--%>
     <script src="DataTables/js/jquery.dataTables.min.js"></script>
     <%--FontAwesomes js--%>
@@ -36,13 +39,13 @@
                     <a class="navbar-brand" href="#">
                         <img src="Images/books.png" width="30" height="30" />
                         E-Library</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
@@ -54,7 +57,7 @@
                             </li>
                         </ul>
 
-                        <ul class="navbar-nav mb-2 mb-lg-0">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ">
                             <li class="nav-item">
                                 <asp:LinkButton class="nav-link" ID="LinkButton1" runat="server">View Books</asp:LinkButton>
                             </li>
@@ -111,7 +114,7 @@
             <div id="footer2" class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 text-center">
-                        <p style="color:whitesmoke">
+                        <p style="color: whitesmoke">
                             &copy All right Reserved <a class="footerlinks" href="#" target="_blank">Blue Core</a>
                         </p>
                     </div>
