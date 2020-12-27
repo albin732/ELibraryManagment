@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0">
+  <Operation Name="Rename Refactor" Key="cb274d1e-6f1b-4aee-ab71-1fa79af4c463" ChangeDateTime="12/27/2020 09:20:49" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[author_master_table].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[author_master_table]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="author_Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c6e60ebb-12b7-456a-8cd8-99698bd13758" ChangeDateTime="12/27/2020 09:50:17" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[publisher_master_tbl].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[publisher_master_tbl]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="publisher_id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="707d0010-0600-4351-862b-ec73ab2cf320" ChangeDateTime="12/27/2020 09:52:00" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[admin_login_tbl].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[admin_login_tbl]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="user_name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a60e241b-ad16-4daf-bc41-6fd81ff4aac9" ChangeDateTime="12/27/2020 09:54:52" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[member_master_tbl].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[member_master_tbl]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="full_name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c7653519-75f5-4b1b-94cd-5f8aa17f8f26" ChangeDateTime="12/27/2020 10:00:09" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[book_master_tbl].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[book_master_tbl]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="book_Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fff26431-ae21-4a76-9005-9f6191c7690a" ChangeDateTime="12/27/2020 10:07:00" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[book_issue_tbl].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[book_issue_tbl]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="member_Id" />
+  </Operation>
+</Operations>

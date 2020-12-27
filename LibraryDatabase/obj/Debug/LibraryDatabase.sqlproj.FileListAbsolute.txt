@@ -1,0 +1,10 @@
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\LibraryDatabase\bin\Debug\LibraryDatabase.dacpac
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\LibraryDatabase\bin\Debug\LibraryDatabase.dll
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\LibraryDatabase\bin\Debug\LibraryDatabase.pdb
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\LibraryDatabase\obj\Debug\LibraryDatabase.sqlprojAssemblyReference.cache
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\LibraryDatabase\obj\Debug\Model.xml
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\LibraryDatabase\obj\Debug\refactor.xml
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\LibraryDatabase\obj\Debug\postdeploy.sql
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\LibraryDatabase\obj\Debug\predeploy.sql
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\LibraryDatabase\obj\Debug\LibraryDatabase.dll
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\LibraryDatabase\obj\Debug\LibraryDatabase.pdb
