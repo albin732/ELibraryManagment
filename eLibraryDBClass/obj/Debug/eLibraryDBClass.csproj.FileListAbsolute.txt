@@ -1,0 +1,8 @@
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\eLibraryDBClass\bin\Debug\eLibraryDB.mdf
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\eLibraryDBClass\bin\Debug\eLibraryDB_log.ldf
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\eLibraryDBClass\bin\Debug\eLibraryDBClass.dll
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\eLibraryDBClass\bin\Debug\eLibraryDBClass.pdb
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\eLibraryDBClass\obj\Debug\eLibraryDBClass.csprojAssemblyReference.cache
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\eLibraryDBClass\obj\Debug\eLibraryDBClass.csproj.CoreCompileInputs.cache
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\eLibraryDBClass\obj\Debug\eLibraryDBClass.dll
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\eLibraryDBClass\obj\Debug\eLibraryDBClass.pdb

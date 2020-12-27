@@ -54,3 +54,7 @@ E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\ELibraryMan
 E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\ELibraryManagmentUI\obj\Debug\ELibraryManagmentUI.csproj.CopyComplete
 E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\ELibraryManagmentUI\obj\Debug\ELibraryManagmentUI.dll
 E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\ELibraryManagmentUI\obj\Debug\ELibraryManagmentUI.pdb
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\ELibraryManagmentUI\bin\eLibraryDB.mdf
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\ELibraryManagmentUI\bin\eLibraryDB_log.ldf
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\ELibraryManagmentUI\bin\eLibraryDBClass.dll
+E:\02Wind_contrib\00WinWorkSpace\C#.net Web App\ELibraryManagmentApp\ELibraryManagmentUI\bin\eLibraryDBClass.pdb
