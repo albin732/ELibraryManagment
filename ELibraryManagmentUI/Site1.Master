@@ -6,7 +6,8 @@
 <head runat="server">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+
+    <title>ELibrary</title>
     <%--Bootstrap css--%>
     <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <%--DataTables css--%>
@@ -16,12 +17,11 @@
     <%--custom css--%>
     <link href="css/CustomStyleSheet.css" rel="stylesheet" />
 
-
-
-    <script src="Bootstrap/js/jquery-3.5.1.slim.min.js"></script>
-    <script src="Bootstrap/js/popper.min.js"></script>
+    
     <%--Bootstrap js--%>
     <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <%--Popper js--%>
+    <script src="Bootstrap/js/popper.min.js"></script>
     <%--DataTables js--%>
     <script src="DataTables/js/jquery.dataTables.min.js"></script>
     <%--FontAwesomes js--%>

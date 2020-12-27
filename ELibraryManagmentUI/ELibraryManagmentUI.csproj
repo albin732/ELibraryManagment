@@ -68,8 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminAuthorManagement.aspx" />
+    <Content Include="AdminBookInventory.aspx" />
     <Content Include="AdminBookIssuing.aspx" />
     <Content Include="AdminLogin.aspx" />
+    <Content Include="AdminMemberManagement.aspx" />
     <Content Include="AdminPublisherManagement.aspx" />
     <Content Include="Bootstrap\css\bootstrap.min.css" />
     <Content Include="Bootstrap\js\bootstrap.min.js" />
@@ -1748,6 +1750,7 @@
     <Content Include="UserSignUp.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="WebForm2.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdminAuthorManagement.aspx.cs">
@@ -1756,6 +1759,13 @@
     </Compile>
     <Compile Include="AdminAuthorManagement.aspx.designer.cs">
       <DependentUpon>AdminAuthorManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBookInventory.aspx.cs">
+      <DependentUpon>AdminBookInventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminBookInventory.aspx.designer.cs">
+      <DependentUpon>AdminBookInventory.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminBookIssuing.aspx.cs">
       <DependentUpon>AdminBookIssuing.aspx</DependentUpon>
@@ -1770,6 +1780,13 @@
     </Compile>
     <Compile Include="AdminLogin.aspx.designer.cs">
       <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMemberManagement.aspx.cs">
+      <DependentUpon>AdminMemberManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminMemberManagement.aspx.designer.cs">
+      <DependentUpon>AdminMemberManagement.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminPublisherManagement.aspx.cs">
       <DependentUpon>AdminPublisherManagement.aspx</DependentUpon>
@@ -1820,6 +1837,13 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
