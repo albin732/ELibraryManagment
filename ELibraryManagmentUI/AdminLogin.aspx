@@ -29,18 +29,18 @@
 
                                 <asp:Label Text="Member ID" runat="server" />
                                 <div class="form-group">
-                                    <asp:TextBox ID="TextBox1" CssClass="form-control" placeholder="Member ID" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="tbxUserId" CssClass="form-control" placeholder="Member ID" runat="server"></asp:TextBox>
                                 </div>
 
                                 
                                 <asp:Label Text="Password" runat="server" />
                                 <div class="form-group">
-                                    <asp:TextBox ID="TextBox2" CssClass="form-control" placeholder="Password" TextMode="Password" runat="server"></asp:TextBox>
+                                    <asp:TextBox ID="tbxPassword" CssClass="form-control" placeholder="Password" TextMode="Password" runat="server"></asp:TextBox>
                                 </div>
 
                                 
                                 <div class="form-group">
-                                    <asp:Button ID="Button3" CssClass="btn btn-success btn-block" runat="server" Text="LogIn" />
+                                    <asp:Button ID="btnLogIn" CssClass="btn btn-success btn-block" runat="server" Text="LogIn" OnClick="btnLogIn_Click" />
                                 </div>
 
 
