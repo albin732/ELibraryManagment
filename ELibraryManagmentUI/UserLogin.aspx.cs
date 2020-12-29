@@ -40,7 +40,11 @@ namespace ELibraryManagmentUI
                 {
                     while (sdr.Read())
                     {
-                        Response.Write("<script>alert('"+sdr.GetValue(8)+"')</script>");
+                        Response.Write("<script>alert('Login Successful')</script>");
+                        Session["username"] = sdr.GetValue(8);
+                        Session["fullname"] = sdr.GetValue(0);
+                        Session["role"] = "user";
+                        Session["status"] = sdr.GetValue(10);
                     }
                 }
                 else
