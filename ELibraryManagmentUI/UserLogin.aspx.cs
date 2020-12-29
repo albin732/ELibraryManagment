@@ -46,6 +46,7 @@ namespace ELibraryManagmentUI
                         Session["role"] = "user";
                         Session["status"] = sdr.GetValue(10);
                     }
+                    Response.Redirect("HomePage.aspx");
                 }
                 else
                 {

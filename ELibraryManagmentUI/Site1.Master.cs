@@ -11,7 +11,62 @@ namespace ELibraryManagmentUI
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            try
+            {
+                if (Session["role"].Equals(""))
+                {
+                    lbtnUserLogIn.Visible = true;
+                    lbtnSignUp.Visible = true;
 
+                    lbtnLogOut.Visible = false;
+                    lbtnHelloUser.Visible = false;
+
+                    lbtnAdminLogin.Visible = true;
+                    lbtnAuthorManagement.Visible = false;
+                    lbtnPublisherManagement.Visible = false;
+                    lbtnBookInventory.Visible = false;
+                    lbtnBookIssuing.Visible = false;
+                    lbtnMemberManagement.Visible = false;
+                }
+                else if(Session["role"].Equals("user"))
+                {
+                    lbtnUserLogIn.Visible = false;
+                    lbtnSignUp.Visible = false;
+
+                    lbtnLogOut.Visible = true;
+                    lbtnHelloUser.Visible = true;
+
+                    lbtnAdminLogin.Visible = false;
+                    lbtnAuthorManagement.Visible = false;
+                    lbtnPublisherManagement.Visible = false;
+                    lbtnBookInventory.Visible = false;
+                    lbtnBookIssuing.Visible = false;
+                    lbtnMemberManagement.Visible = false;
+
+                    lbtnHelloUser.Text = "Hello "+ Session["username"].ToString();
+                }
+                else if (Session["role"].Equals("admin"))
+                {
+                    lbtnUserLogIn.Visible = false;
+                    lbtnSignUp.Visible = false;
+
+                    lbtnLogOut.Visible = true;
+                    lbtnHelloUser.Visible = true;
+
+                    lbtnAdminLogin.Visible = false;
+                    lbtnAuthorManagement.Visible = true;
+                    lbtnPublisherManagement.Visible = true;
+                    lbtnBookInventory.Visible = true;
+                    lbtnBookIssuing.Visible = true;
+                    lbtnMemberManagement.Visible = true;
+
+                    lbtnHelloUser.Text = "Hello Admin";
+                }
+            }
+            catch (Exception ex)
+            {
+                //Response.Write("<script>alert('"+ex.Message+"')</script>");
+            }
         }
 
 
@@ -63,6 +118,15 @@ namespace ELibraryManagmentUI
         protected void lbtnMemberManagement_Click(object sender, EventArgs e)
         {
             Response.Redirect("AdminMemberManagement.aspx");
+        }
+
+        protected void lbtnLogOut_Click(object sender, EventArgs e)
+        {
+            Session["username"] = "";
+            Session["fullname"] = "";
+            Session["role"] = "";
+            Session["status"] = "";
+            Page_Load(null,null);
         }
     }
 }

@@ -41,8 +41,12 @@ namespace ELibraryManagmentUI
                 {
                     while (sdr.Read())
                     {
-                        Response.Write("<script>alert('" + sdr.GetValue(2) + "')</script>");
+                        Response.Write("<script>alert('Login Successful')</script>");
+                        Session["username"] = sdr.GetValue(0);
+                        Session["fullname"] = sdr.GetValue(2);
+                        Session["role"] = "admin";
                     }
+                    Response.Redirect("HomePage.aspx");
                 }
                 else
                 {
