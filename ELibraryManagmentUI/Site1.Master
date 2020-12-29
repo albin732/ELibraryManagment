@@ -17,7 +17,9 @@
     <%--custom css--%>
     <link href="css/CustomStyleSheet.css" rel="stylesheet" />
 
-    
+
+    <%--JQuery--%>
+    <script src="Bootstrap/js/jquery-3.5.1.slim.min.js"></script>
     <%--Bootstrap js--%>
     <script src="Bootstrap/js/bootstrap.min.js"></script>
     <%--Popper js--%>

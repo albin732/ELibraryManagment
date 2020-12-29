@@ -127,6 +127,7 @@ namespace ELibraryManagmentUI
             Session["role"] = "";
             Session["status"] = "";
             Page_Load(null,null);
+            Response.Redirect("HomePage.aspx");
         }
     }
 }
