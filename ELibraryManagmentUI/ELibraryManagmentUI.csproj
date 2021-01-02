@@ -1732,6 +1732,7 @@
     <Content Include="Images\adminuser.png" />
     <Content Include="Images\book-online.png" />
     <Content Include="Images\books.png" />
+    <Content Include="Book_Inventory\books1.png" />
     <Content Include="Images\books1.png" />
     <Content Include="Images\defaulters-list.png" />
     <Content Include="Images\digital-data.png" />

@@ -56,10 +56,8 @@ namespace ELibraryManagmentUI
 
                
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-
-                throw;
             }
         }
     }

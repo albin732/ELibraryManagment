@@ -63,7 +63,7 @@ namespace ELibraryManagmentUI
                     lbtnHelloUser.Text = "Hello Admin";
                 }
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 //Response.Write("<script>alert('"+ex.Message+"')</script>");
             }
