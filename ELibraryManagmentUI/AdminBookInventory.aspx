@@ -115,6 +115,7 @@
                                         <asp:ListItem Text="Crime" Value="Crime" />
                                         <asp:ListItem Text="Drama" Value="Drama" />
                                         <asp:ListItem Text="Science" Value="Science" />
+                                        <asp:ListItem Text="History" Value="History" />
                                     </asp:ListBox>
                                 </div>
                             </div>

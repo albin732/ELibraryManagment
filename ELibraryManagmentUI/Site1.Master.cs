@@ -76,7 +76,7 @@ namespace ELibraryManagmentUI
 
         protected void lbtnViewBooks_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("ViewBooks.aspx");
         }
         protected void lbtnUserLogIn_Click(object sender, EventArgs e)
         {
