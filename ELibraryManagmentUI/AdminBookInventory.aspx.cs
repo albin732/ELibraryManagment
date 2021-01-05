@@ -190,7 +190,7 @@ namespace ELibraryManagmentUI
                 Response.Write("<script>alert('New Book added successfully');</script>");
                 GridView1.DataBind();
             }
-            catch (Exception ex)
+            catch (Exception )
             {
             }
         }
@@ -318,7 +318,7 @@ namespace ELibraryManagmentUI
                 Response.Write("<script>alert('Member Status Updated');</script>");
                 GridView1.DataBind();
             }
-            catch (Exception ex)
+            catch (Exception )
             {
             }
         }

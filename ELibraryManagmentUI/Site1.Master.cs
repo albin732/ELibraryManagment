@@ -19,7 +19,7 @@ namespace ELibraryManagmentUI
                     lbtnSignUp.Visible = true;
 
                     lbtnLogOut.Visible = false;
-                    lbtnHelloUser.Visible = false;
+                    lbtnUserProfile.Visible = false;
 
                     lbtnAdminLogin.Visible = true;
                     lbtnAuthorManagement.Visible = false;
@@ -34,7 +34,7 @@ namespace ELibraryManagmentUI
                     lbtnSignUp.Visible = false;
 
                     lbtnLogOut.Visible = true;
-                    lbtnHelloUser.Visible = true;
+                    lbtnUserProfile.Visible = true;
 
                     lbtnAdminLogin.Visible = false;
                     lbtnAuthorManagement.Visible = false;
@@ -43,7 +43,7 @@ namespace ELibraryManagmentUI
                     lbtnBookIssuing.Visible = false;
                     lbtnMemberManagement.Visible = false;
 
-                    lbtnHelloUser.Text = "Hello "+ Session["username"].ToString();
+                    lbtnUserProfile.Text = "Hello "+ Session["username"].ToString();
                 }
                 else if (Session["role"].Equals("admin"))
                 {
@@ -51,7 +51,7 @@ namespace ELibraryManagmentUI
                     lbtnSignUp.Visible = false;
 
                     lbtnLogOut.Visible = true;
-                    lbtnHelloUser.Visible = true;
+                    lbtnUserProfile.Visible = true;
 
                     lbtnAdminLogin.Visible = false;
                     lbtnAuthorManagement.Visible = true;
@@ -60,7 +60,7 @@ namespace ELibraryManagmentUI
                     lbtnBookIssuing.Visible = true;
                     lbtnMemberManagement.Visible = true;
 
-                    lbtnHelloUser.Text = "Hello Admin";
+                    lbtnUserProfile.Text = "Hello Admin";
                 }
             }
             catch (Exception )
@@ -128,6 +128,11 @@ namespace ELibraryManagmentUI
             Session["status"] = "";
             Page_Load(null,null);
             Response.Redirect("HomePage.aspx");
+        }
+
+        protected void lbtnUserProfile_Click1(object sender, EventArgs e)
+        {
+            Response.Redirect("UserProfile.aspx");
         }
     }
 }
